@@ -1,0 +1,15 @@
+@import "./variables";
+
+@import "../components/Education/Education";
+@import "../components/Experience/Experience";
+@import "../components/Hero/Hero";
+@import "../components/More/More";
+
+.App {
+  font-family: $fonts;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
