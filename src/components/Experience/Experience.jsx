@@ -5,7 +5,7 @@ import "./_Experience.scss";
 const Experience = ({ experience }) => {
   return (
     <>
-      <h2>Experiencia</h2>
+      <h2>Experiencia Laboral</h2>
       <div className="container-experience">
         {experience.map((item, index) => {
           return (

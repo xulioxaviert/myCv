@@ -2,28 +2,38 @@
 
 .hero {
   display: flex;
-  width: 100%;
-  background-color: $background;
+  justify-content: center;
+  height: 300px;
+  padding-top: 10px;
+
   .hero-image {
-    width: 100%;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
-  .hero-data {
-    width: 25%;
-    background-color: $background;
+  .container_hero-data {
     display: flex;
     flex-direction: column;
+    width: 480px;
     justify-content: center;
-    padding: 5px;
-    margin: 5px 0;
-   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 0 10px;
+  }
+
+  .hero-data {
+    background-color: $background;
+    justify-content: center;
+    padding: 0 15px;
+    margin: 0 15px;
   }
   .hero-image img {
     width: 100%;
   }
 
   h4 {
-    margin: 10px 0 0 0;
-    padding: 5px 0;
+    margin: 6px 0 0 0;
+    padding: 2px 0;
     color: $font-color1;
     text-decoration: underline;
   }
@@ -37,7 +47,30 @@
     padding: 0;
     color: white;
   }
+}
+
+.container-aboutMe {
+  padding: 10px 10px;
+  margin: 15px 15%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
   .aboutMe {
-    padding: 10px 0;
+    padding: 5px;
+    height: 100px;
+    background-color: $background;
+  }
+
+  h4 {
+    margin: 6px 0 0 0;
+    padding: 2px 0;
+    color: $font-color1;
+    text-decoration: underline;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    color: white;
   }
 }

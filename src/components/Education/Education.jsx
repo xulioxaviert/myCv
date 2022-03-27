@@ -4,7 +4,7 @@ import "./_Education.scss";
 export const Education = ({ education }) => {
   return (
     <>
-      <h2>Estudios</h2>
+      <h2>Estudios Realizados</h2>
       <div className="container-education">
         {education.map((item, index) => {
           return (

@@ -2,22 +2,39 @@
 
 .container-more {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: justify;
-  align-items: baseline;
+  align-items: center;
   gap: 15px;
   .container-languages {
-    background-color: #222f3e;
+    display: flex;
+    padding: 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
   .container-habilities {
-    background-color: #222f3e;
+    display: flex;
+    padding: 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
   }
   p {
-    margin: 0;
+    background-color: #222f3e;
+    margin: 10px 0;
     padding: 5px;
-    
     color: white;
+    color: $font-color1;
+    
   }
+  h2 {
 
+  //background-color: #222f3e;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
   
 }
