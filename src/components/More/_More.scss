@@ -37,4 +37,23 @@
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
   
+@media (max-width: 480px) {
+  p{
+    font-size: 12px;
+  }
+  
+  .container-habilities {
+    display: flex;
+    flex-direction: column;
+p{
+  margin: 0;
+  padding: 5px 0;
+}
+
+
+  }
+}
+
+
+
 }

@@ -5,6 +5,12 @@
   justify-content: center;
   height: 300px;
   padding-top: 10px;
+  @media (max-width: 760px) {
+    .hero-image > img {
+      height: 75%;
+      width: 75%;
+    }
+  }
 
   .hero-image {
     display: flex;
@@ -19,6 +25,22 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     margin: 0 10px;
+
+    @media (max-width: 760px) {
+      .hero {
+        height: 100px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+      h4 {
+        font-size: 12px;
+      }
+      .hero-image img {
+        width: 75%;
+      }
+    }
   }
 
   .hero-data {
@@ -29,6 +51,11 @@
   }
   .hero-image img {
     width: 100%;
+    @media (max-width: 760px) {
+      img {
+        width: 75%;
+      }
+    }
   }
 
   h4 {
@@ -53,7 +80,7 @@
   padding: 10px 10px;
   margin: 15px 15%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
   .aboutMe {
     padding: 5px;
@@ -72,5 +99,10 @@
     margin: 0;
     padding: 0;
     color: white;
+  }
+  @media (max-width: 760px) {
+    p {
+      font-size: 12px;
+    }
   }
 }
