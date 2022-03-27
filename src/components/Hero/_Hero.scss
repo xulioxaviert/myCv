@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.hero {
+  display: flex;
+  width: 100%;
+  background-color: $background;
+  .hero-image {
+    width: 100%;
+  }
+  .hero-data {
+    width: 25%;
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px 0;
+   
+  }
+  .hero-image img {
+    width: 100%;
+  }
+
+  h4 {
+    margin: 10px 0 0 0;
+    padding: 5px 0;
+    color: $font-color1;
+    text-decoration: underline;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  .aboutMe {
+    padding: 10px 0;
+  }
+}

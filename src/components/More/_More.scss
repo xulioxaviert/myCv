@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.container-more {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: baseline;
+  gap: 15px;
+  .container-languages {
+    background-color: #222f3e;
+  }
+  .container-habilities {
+    background-color: #222f3e;
+  }
+  p {
+    margin: 0;
+    padding: 5px;
+    
+    color: white;
+  }
+
+  
+}

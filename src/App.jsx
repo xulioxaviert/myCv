@@ -11,7 +11,6 @@ const { hero, education, experience, languages, habilities } = CV;
 function App() {
   return (
     <div className="App">
-      <h1>My CV</h1>
       <Hero hero={hero} />
       <Education education={education} />
       <Experience experience={experience} />

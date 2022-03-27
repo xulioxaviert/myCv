@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.container-experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    gap: 5px;
+    margin: 50px 5%;
+      
+
+}
+
+.experience-card {
+    margin-top: 50px;
+    
+    background-color: #222f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px 15px 15px;
+  
+  h4 {
+    margin: 10px 0 0 0;
+    padding: 5px 0;
+    color: $font-color1;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+}

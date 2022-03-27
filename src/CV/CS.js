@@ -14,8 +14,8 @@ export const CV = {
         info: "Estudiante de Full Stack Developer en Upgrade Hub, Apasionado por la tecnología",
       },
     ],
-},
-    
+  },
+
   education: [
     {
       name: "Máster en Gestión y Dirección Logística.",
@@ -62,13 +62,20 @@ export const CV = {
       where: "Valecuatro Cueros S.L.",
       description: "Responsable de almacén de empresa del sector textil.",
     },
-],
-  
-  languages: {
-    language: "Español",
-    wrlevel: "Nativo",
-    splevel: "Nativo",
-  },
+  ],
+
+  languages: [
+    {
+      language: "Español",
+      wrlevel: "Nativo",
+      splevel: "Nativo",
+    },
+    {
+      language: "Ingles",
+      wrlevel: "Medio-alto",
+      splevel: "Medio-alto",
+    },
+  ],
   habilities: [
     "Buen dominio de cualquier Sistema Operativo",
     "Manejo avanzado de paquetes ofimáticos",

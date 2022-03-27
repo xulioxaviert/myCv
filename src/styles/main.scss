@@ -1,5 +1,4 @@
 @import "./variables";
-
 @import "../components/Education/Education";
 @import "../components/Experience/Experience";
 @import "../components/Hero/Hero";
@@ -7,6 +6,7 @@
 
 .App {
   font-family: $fonts;
+  text-decoration: underline;
 }
 
 body {
