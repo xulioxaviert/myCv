@@ -5,6 +5,7 @@ import { Education } from "./components/Education/Education";
 import { CV } from "./CV/CS";
 import Experience from "./components/Experience/Experience";
 import More from "./components/More/More";
+import { SiReact } from "react-icons/si";
 
 const { hero, education, experience, languages, habilities } = CV;
 
@@ -37,8 +38,11 @@ function App() {
         ) : showEducation === 3 ? (
           <More habilities={habilities} languages={languages} />
         ) : (
-          console.log("no quiero nada")
+          console.log("no muestro nada")
         )}
+      </div>
+      <div className="footer" >
+        <SiReact /> Aplicación hecha con React <SiReact />
       </div>
     </div>
   );
